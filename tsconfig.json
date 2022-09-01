@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "paths": {
+      "@app/*": ["./app/*"],
+      "@common/*": ["./common/*"],
+      "@config/*": ["./config/*"],
+      "@entities/*": ["./entities/*"],
+      "@exceptions/*": ["./exceptions/*"],
+      "@guard/*": ["./guard/*"],
+      "@mock/*": ["./mock/*"],
+      "@providers/*": ["./providers/*"],
+      "@routes/*": ["./routes/*"],
+      "@services/*": ["./services/*"],
+      "@shared/*": ["./shared/*"]
+    },
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "allowJs": true
+  }
+}
